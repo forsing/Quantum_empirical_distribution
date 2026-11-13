@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -219,17 +219,17 @@ Metoda: Quantum Variational Empirical Amplitude Distribution (7x6 qubita)
 CSV: loto7_4718_k90.csv
 Validacija NLL (h=0.55): 20.5054
 Test NLL: 20.4589
-NEXT: [2, 8, 15, 24, 29, 34, 39]
+NEXT: [2, x, 15, y, 29, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (h=0.55): 20.4562
 Test NLL: 20.5789
-NEXT: [1, 9, 14, 23, 24, 33, 39]
+NEXT: [1, x, 14, y, 24, z, 39]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (h=0.8): 20.4230
 Test NLL: 20.2962
-NEXT: [2, 8, 11, 23, 27, 32, 38]
+NEXT: [2, x, 11, y, 27, z, 38]
 
 """
 
